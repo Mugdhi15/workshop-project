@@ -5,7 +5,7 @@ import PayRent from './PayRent';
 import AddProperty from './AddProperty';
 
 const Connect = () => {
-    const { aeSdk, connectToWallet, address, getBalance } = useAeternitySDK();
+    const { aeSdk, connectToWallet, address } = useAeternitySDK();
   
   const [isLoading, setIsLoading] = useState(false);
 
